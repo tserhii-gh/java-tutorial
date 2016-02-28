@@ -1,4 +1,4 @@
-class Vehicles {
+class AddVehicles {
     int passengers;
     int fuelcap;
     int mpg;
@@ -10,8 +10,8 @@ class Vehicles {
 
 class AddMeth {
     public static void main(String[] args) {
-        Vehicles minivan = new Vehicles();
-        Vehicles sportscar = new Vehicles();
+        AddVehicles minivan = new AddVehicles();
+        AddVehicles sportscar = new AddVehicles();
 
         minivan.passengers = 7;
         minivan.fuelcap = 16;
